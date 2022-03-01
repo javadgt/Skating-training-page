@@ -1,0 +1,132 @@
+@font-face {
+    font-family: IRANSansWeb ;
+    src: url(./fonts/IRANSansWeb\(FaNum\)_Medium.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'IRANSansWeb';
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+/* :root{
+    
+} */
+body{
+    direction: rtl  ;
+    overflow-x: hidden;
+    background-color: #142b43;
+    color: #F7F9FC;
+}
+.container{
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* min-width: 100vw; */
+    /* min-height:100vh ; */
+
+}
+.circle1{
+    width: 690px;
+    height: 690px;
+    border-radius: 50%;
+    background-color: #64edff;
+    box-shadow: 0 0 150px 180px #64edff;
+    top: -559px;
+    left: -620px;
+    position: absolute;
+    opacity: .5;
+}
+
+.navigation{
+    color: #F7F9FC;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo img{
+    width: 140px;
+    height: 32px;
+}
+
+.navigation ul{
+    display: flex;
+    position: relative;
+}
+.navigation ul li{
+    opacity: .5;
+    margin: 0 20px;
+    font-size: 18px;
+}
+.active{
+    opacity: 1 !important;    
+}
+.active-border{
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    background-color:#F7F9FC ;
+    position: absolute;
+    bottom: -11px;
+    right: 60px;
+}
+
+
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.shop{
+    width: 56px;
+    height: 56px;
+    border: 2px solid #f7f9fc83;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.shop img{
+    width: 24px;
+    height: 24px;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f7f9fc83;
+    border-radius: 7px;
+    width: 196px;
+    height: 56px;
+    color: inherit;
+}
+.signup img{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.page-title{
+    display: flex;
+}
+.right-main{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
