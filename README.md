@@ -1,3 +1,3 @@
 # Skating-training-page
 
-HTML CSS JS
+HTML && CSS && JS
